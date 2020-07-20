@@ -44,7 +44,6 @@ var Object = {
         }
     ]
 }
-
 for (const property in Object) {
     for (let i = 0; i < x[property].length; i++) {
         console.log(x[property][i]);
